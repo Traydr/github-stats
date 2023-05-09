@@ -40,7 +40,7 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXCLUDED: "Traydr/github-stats,Traydr/jetbrains,Traydr/traydr,Traydr/ut-tcs-m1-pearls,Traydr/Unamed-Transportation-Game"
+          EXCLUDED: "Traydr/github-stats,Traydr/jetbrains,Traydr/traydr,Traydr/ut-tcs-m1-pearls,Traydr/Unamed-Transportation-Game,Traydr/Traydr.github.io"
           EXCLUDED_LANGS: "html,css,hlsl,rich text format,shaderlab"
           EXCLUDE_FORKED_REPOS: true
 
